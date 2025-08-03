@@ -1,4 +1,3 @@
-// Create falling white balls in the background
 function createBalls() {
     for (let i = 0; i < 30; i++) {
         let ball = document.createElement("div");
@@ -17,3 +16,4 @@ window.onload = function() {
     let audio = document.getElementById("bgMusic");
     audio.play();
 };
+
